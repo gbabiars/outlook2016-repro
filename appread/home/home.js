@@ -12,7 +12,6 @@
 
       if(foo) {
         jQuery('#content-main').append('<div>' + foo + '</div>');
-        localStorage.removeItem('foo');
       } else {
         jQuery('#content-main').append('<div>no foo</div>');
         localStorage.setItem('foo', 'bar');
