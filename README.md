@@ -15,6 +15,7 @@ On each visit, the add-in will check local storage for the key foo and if there 
 On Outlook 2016 15.22 on Mac, it removes local storage values after some amount of time (~15 min), so you'll only see `no foo`.
 
 Steps to repro:
+
 1. Open the add-in in Outlook 2016 for Mac 15.22.
 2. Close the add-in.
 3. Open the add-in again to verify it shows `bar`.
